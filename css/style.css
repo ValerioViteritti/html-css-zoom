@@ -10,17 +10,56 @@ body{
 /* Regole dell'header */
 
 header{
+    background-color: rgb(63, 59, 59);
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    
+
+}
+nav{
+
+}
+
+.button-nav{
+    float: right;
 
 }
 
 /* Regole del main */
 
 main{
+    width: 90%;
+    margin: 100px auto;
+    overflow-y: auto;
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+    
+
+}
+
+.img-item{
+    background-color: aqua;
+    height: 125px;
+    width: 210px;
+    margin-bottom: 10px;
 
 }
 
 /* Regole del footer */
 
 footer{
-    
+    background-color: rgb(74, 72, 72);
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
 }
