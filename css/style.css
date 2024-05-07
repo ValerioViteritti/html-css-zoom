@@ -12,22 +12,30 @@ body{
 /* Regole dell'header */
 
 header{
-    background-color: rgb(63, 59, 59);
+    background-color: black;
     height: 10vh;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    color: white;
+    
     
 
 }
-nav{
-
+nav a{
+    color: white;
 }
 
 .button-nav{
+    background-color: #4a4a4a;
     float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+
 
 }
 
@@ -67,6 +75,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
+    align-items: center;
 
 }
 footer div{
@@ -81,6 +90,8 @@ footer div{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    color: white;
+    align-items: center;
 }
 
 .size-icon-text{
@@ -91,6 +102,7 @@ footer div{
 
 .angle-up{
     font-size: 10px;
+    color: white;
 }
 
 #green{
